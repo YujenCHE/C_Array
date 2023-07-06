@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+	int arr[5] = {0, 1, 2, 3, 4};
+	int arr1[] = {12, 13, 14, 15, 16};
+	
+	float arr2[5];
+	int i;
+	for(i = 0; i < 5; i++){
+	    arr2[i] = (float)i * 2.43;
+	    printf("%.5f\n", arr2[i]);
+	}
+	return 0;
+}
