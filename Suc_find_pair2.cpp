@@ -30,3 +30,7 @@ int main() {
 	
 	return 0;
 }
+//用一開始自己寫的改的
+//1.加了continue才能在i=j時跳回迴圈
+//2.差用代數diff
+//欸發現不用continue那段也可以
