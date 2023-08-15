@@ -8,19 +8,19 @@ void findmissing(int arr[], int n)
         temp[i] = 0;//initialized
     }
     
-    for(int i; i < n; i++)
+    for(int k; k < n; k++)
     {
-        temp[arr[i] -1 ] = 1;
+        temp[arr[k] -1 ] = 1;
         //用另一個array--temp
         //來讓missing number代表的temp element = 0 ==>沒有東西
     }
     
     int ans;
-    for(int i; i <= n; i++)
+    for(int j; j <= n; j++)
     {
-        if(temp[i] == 0)
+        if(temp[j] == 0)
         {
-            ans = i+1;
+            ans = j+1;
         }
     }
     
